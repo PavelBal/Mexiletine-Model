@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -889,7 +889,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -2198,7 +2198,88 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 200 mg iv 5 min|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Campbell1978-clinpharm.Mexiletine.200.iv.Mexiletine",
+              "X": "Campbell1978-clinpharm.Mexiletine.200.iv.Mexiletine|Time",
+              "Y": "Campbell1978-clinpharm.Mexiletine.200.iv.Mexiletine|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Campbell1978.Mexiletine.m.200.iv-Mexiletine",
+              "X": "Campbell1978.Mexiletine.m.200.iv|Time",
+              "Y": "Campbell1978.Mexiletine.m.200.iv|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 200 mg iv 5 min",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 200 mg iv",
+          "OriginText": "Mexiletine\nMexiletine 200 mg iv\n2020-07-17 14:56"
+        }
+      ]
     },
     {
       "Name": "Mexiletine 200 mg po",
@@ -2354,7 +2435,90 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.868574,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 200 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Campbell1978.Mexiletine.m.200.po-Mexiletine",
+              "X": "Campbell1978.Mexiletine.m.200.po|Time",
+              "Y": "Campbell1978.Mexiletine.m.200.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Joeres1987.Mexiletine.200.po-Mexiletine-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Joeres1987.Mexiletine.200.po|Time",
+              "Y": "Joeres1987.Mexiletine.200.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 200 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 200 mg po",
+          "OriginText": "Mexiletine\nMexiletine 200 mg po\n2020-07-27 12:04"
+        }
+      ]
     },
     {
       "Name": "Mexiletine 83.31 mg po bid EM prediction",
@@ -2592,7 +2756,81 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 70.0,
+              "Max": 84.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 2.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 83.31 mg po bid EM prediction|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Labbe2000.Mexiletine.m/f.83.31.po.EM",
+              "X": "Labbe2000.Mexiletine.m/f.83.31.po.EM|Time",
+              "Y": "Labbe2000.Mexiletine.m/f.83.31.po.EM|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 83.31 mg po bid EM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 83.31 mg po bid EM",
+          "OriginText": "Mexiletine\nMexiletine 83.31 mg po bid EM prediction\n2020-07-29 12:59"
+        }
+      ]
     },
     {
       "Name": "Mexiletine 83.31 mg po bid PM prediction",
@@ -2827,7 +3065,81 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 70.0,
+              "Max": 84.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 3.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 83.31 mg po bid PM prediction|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Labbe2000.Mexiletine.m/f.83.31.po.PM",
+              "X": "Labbe2000.Mexiletine.m/f.83.31.po.PM|Time",
+              "Y": "Labbe2000.Mexiletine.m/f.83.31.po.PM|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 83.31 mg po bid PM",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 83.31 mg po bid PM",
+          "OriginText": "Mexiletine\nMexiletine 83.31 mg po bid PM prediction\n2020-07-29 13:06"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 100 mg po",
@@ -2981,7 +3293,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 33.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 100 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pringle1986.Mexiletine.m.100 HCL.po-Mexiletine",
+              "X": "Pringle1986.Mexiletine.m.100 HCL.po|Time",
+              "Y": "Pringle1986.Mexiletine.m.100 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 100 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 100 mg po",
+          "OriginText": "Mexiletine\nMexiletine HCL 100 mg po\n2020-07-29 13:03"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 200 mg po",
@@ -3133,7 +3517,77 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 200 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pringle1986.Mexiletine.m.200 HCL.po",
+              "X": "Pringle1986.Mexiletine.m.200 HCL.po|Time",
+              "Y": "Pringle1986.Mexiletine.m.200 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 200 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 200 mg po",
+          "OriginText": "Mexiletine\nMexiletine HCL 200 mg po\n2020-07-20 15:09"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 300 mg po",
@@ -3285,7 +3739,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 3.99321,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 300 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pringle1986.Mexiletine.m.300 HCL.po",
+              "X": "Pringle1986.Mexiletine.m.300 HCL.po|Time",
+              "Y": "Pringle1986.Mexiletine.m.300 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 300 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 300 mg po",
+          "OriginText": "Mexiletine\nMexiletine HCL 300 mg po\n2020-07-17 18:20"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 400 mg po",
@@ -3437,7 +3963,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 6.020888,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 400 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pringle1986.Mexiletine.m.400 HCL.po",
+              "X": "Pringle1986.Mexiletine.m.400 HCL.po|Time",
+              "Y": "Pringle1986.Mexiletine.m.400 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 400 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 400 mg po",
+          "OriginText": "Mexiletine\nMexiletine HCL 400 mg po\n2020-07-17 18:23"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 600 mg po",
@@ -3589,7 +4187,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 8.607208,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 600 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pringle1986.Mexiletine.m.600 HCL.po",
+              "X": "Pringle1986.Mexiletine.m.600 HCL.po|Time",
+              "Y": "Pringle1986.Mexiletine.m.600 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 600 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 600 mg po",
+          "OriginText": "Mexiletine\nMexiletine HCL 600 mg po\n2020-07-17 18:23"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 200 mg po asian",
@@ -3729,7 +4399,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 2.571309,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine HCL 200 mg po asian|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kusumoto1998.Mexiletine.m.200HCL.po",
+              "X": "Kusumoto1998.Mexiletine.m.200HCL.po|Time",
+              "Y": "Kusumoto1998.Mexiletine.m.200HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine HCL 200 mg po asian",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine HCL 200 mg po asian",
+          "OriginText": "Mexiletine\nMexiletine HCL 200 mg po asian\n2020-07-20 10:38"
+        }
+      ]
     },
     {
       "Name": "Mexiletine 200 mg iv 30 min",
@@ -3887,7 +4629,99 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 200 mg iv 30 min|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction",
+              "X": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction|Time",
+              "Y": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction_gr",
+              "X": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction_gr2|Time",
+              "Y": "Pentikainen1984.Mexiletine.200HCL.iv.acute myocardial infarction_gr2|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen1984.Mexiletine.200HCL.iv.recovery myocardial infarction_gr2",
+              "X": "Pentikainen1984.Mexiletine.200HCL.iv.recovery myocardial infarction_gr2|Time",
+              "Y": "Pentikainen1984.Mexiletine.200HCL.iv.recovery myocardial infarction_gr2|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 200 mg iv 30 min",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 200 mg iv 30 min",
+          "OriginText": "Mexiletine\nMexiletine 200 mg iv 30 min\n2020-07-29 12:55"
+        }
+      ]
     },
     {
       "Name": "Mexiletine 400 mg po",
@@ -4069,7 +4903,132 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Mexiletine simulated",
+              "X": "Time",
+              "Y": "Mexiletine 400 mg po|Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.1",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.1|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.1|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.2",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.2|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.2|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.3",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.3|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.3|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.4",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.4|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.4|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.5",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.5|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.5|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Begg1982.m/f.333.24.po.6",
+              "X": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.6|Time",
+              "Y": "Mexiletine.Human.Peripheral Venous Blood.Plasma.Begg1982.m/f.333.24.po.6|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Mexiletine 400 mg po",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Mexiletine 400 mg po",
+          "OriginText": "Mexiletine\nMexiletine 400 mg po\n2020-07-21 15:47"
+        }
+      ]
     },
     {
       "Name": "Mexiletine HCL 100 mg po pop",
@@ -4185,12 +5144,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -5436,7 +6395,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5484,7 +6443,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5520,7 +6479,7 @@
         },
         {
           "Path": "Organism|Bone|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5661,13 +6620,13 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Initial concentration",
-          "Value": 5.6256291822E-05,
+          "Value": 5.6256291822e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
@@ -5772,7 +6731,7 @@
         },
         {
           "Path": "Organism|Bone|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5820,7 +6779,7 @@
         },
         {
           "Path": "Organism|Brain|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5961,13 +6920,13 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Initial concentration",
-          "Value": 4.1529351875E-05,
+          "Value": 4.1529351875e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -6062,7 +7021,7 @@
         },
         {
           "Path": "Organism|Brain|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6120,7 +7079,7 @@
         },
         {
           "Path": "Organism|Fat|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6372,7 +7331,7 @@
         },
         {
           "Path": "Organism|Fat|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6420,7 +7379,7 @@
         },
         {
           "Path": "Organism|Gonads|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6609,7 +7568,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -6672,7 +7631,7 @@
         },
         {
           "Path": "Organism|Gonads|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6720,7 +7679,7 @@
         },
         {
           "Path": "Organism|Heart|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6972,7 +7931,7 @@
         },
         {
           "Path": "Organism|Heart|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7020,7 +7979,7 @@
         },
         {
           "Path": "Organism|Kidney|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7167,7 +8126,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -7193,13 +8152,13 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Initial concentration",
-          "Value": 1.3902681231E-05,
+          "Value": 1.3902681231e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -7284,7 +8243,7 @@
         },
         {
           "Path": "Organism|Kidney|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7332,7 +8291,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7584,7 +8543,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7848,7 +8807,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7896,7 +8855,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8160,7 +9119,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8208,7 +9167,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8472,7 +9431,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8520,7 +9479,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8784,7 +9743,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8832,7 +9791,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9096,7 +10055,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9144,7 +10103,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9408,7 +10367,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9456,7 +10415,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9504,7 +10463,7 @@
         },
         {
           "Path": "Organism|Liver|Pericentral|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9816,7 +10775,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10080,7 +11039,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10920,7 +11879,7 @@
         },
         {
           "Path": "Organism|Lung|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11093,7 +12052,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         },
         {
@@ -11167,12 +12126,12 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11220,7 +12179,7 @@
         },
         {
           "Path": "Organism|Muscle|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11472,7 +12431,7 @@
         },
         {
           "Path": "Organism|Muscle|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11520,7 +12479,7 @@
         },
         {
           "Path": "Organism|Pancreas|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11772,7 +12731,7 @@
         },
         {
           "Path": "Organism|Pancreas|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11820,7 +12779,7 @@
         },
         {
           "Path": "Organism|PortalVein|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11868,7 +12827,7 @@
         },
         {
           "Path": "Organism|PortalVein|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11904,7 +12863,7 @@
         },
         {
           "Path": "Organism|Skin|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12156,7 +13115,7 @@
         },
         {
           "Path": "Organism|Skin|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12204,7 +13163,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12456,7 +13415,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12720,7 +13679,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12768,7 +13727,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13032,7 +13991,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13080,7 +14039,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13344,7 +14303,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13392,7 +14351,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13656,7 +14615,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13704,7 +14663,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -13968,7 +14927,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14016,7 +14975,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14064,7 +15023,7 @@
         },
         {
           "Path": "Organism|Spleen|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14316,7 +15275,7 @@
         },
         {
           "Path": "Organism|Spleen|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14364,7 +15323,7 @@
         },
         {
           "Path": "Organism|Stomach|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14616,7 +15575,7 @@
         },
         {
           "Path": "Organism|Stomach|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14664,7 +15623,7 @@
         },
         {
           "Path": "Organism|VenousBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14712,7 +15671,7 @@
         },
         {
           "Path": "Organism|VenousBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -14834,7 +15793,7 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true
     }
   ],
   "ObservedData": [
