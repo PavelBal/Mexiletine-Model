@@ -15793,7 +15793,78 @@
           }
         }
       ],
-      "HasResults": true
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Mexiletine simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Mexiletine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "Median",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "Range95",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Pringle1986.Mexiletine.m.100 HCL.po"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Pringle1986.Mexiletine.m.100 HCL.po-Mexiletine-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Pringle1986.Mexiletine.m.100 HCL.po|ObservedData|Peripheral Venous Blood|Plasma|Mexiletine|CentralMeasure",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Mexiletine-Model\nMexiletine HCL 100 mg po pop\n2025-05-12 12:56"
+        }
+      ]
     }
   ],
   "ObservedData": [
@@ -18482,5 +18553,6 @@
         "Unit": "h"
       }
     }
-  ]
+  ],
+  "ApplicationName": "PK-Sim"
 }
