@@ -2107,12 +2107,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine IV 200mg 5 min infusion|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 5.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -2337,12 +2331,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Mexiletine PO 200 mg free base|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -2578,96 +2566,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -2890,96 +2788,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine 100mg HCL BID 8d|Mexiletine tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -3198,12 +3006,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Mexiletine PO 100 mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -3425,12 +3227,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine PO 200 mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -3646,12 +3442,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Mexiletine PO 300mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -3871,12 +3661,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine PO 400mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -4094,12 +3878,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Mexiletine PO 600mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -4319,12 +4097,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mexiletine PO 200 mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l",
@@ -4532,12 +4304,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|200 mg HCL IV 30 min infusion|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -4785,12 +4551,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|Mexiletine PO 400mg free base|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Undefined Liver|Reference concentration",
           "Value": 1.0,
@@ -6333,12 +6093,6 @@
           "Path": "CYP3A5|t1/2 (liver)",
           "Value": 36.0,
           "Unit": "h",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mexiletine PO 100 mg HCL|Mexiletine tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
